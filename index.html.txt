@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khay Gadget & I.T Venture - Buy, Sell, Swap, Repair</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Khay Gadget Logo" class="logo-img">
+            <h1>Khay Gadget & I.T Venture</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Khay Gadget & I.T Venture</h2>
+            <p>Your trusted source for buying, selling, swapping, and repairing laptops, phones, and gadgets.</p>
+            <a href="https://wa.me/+2349070566797" class="btn whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Contact Us on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>Buy Gadgets</h3>
+                <p>Explore a wide range of laptops, phones, and accessories at affordable prices.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Sell Gadgets</h3>
+                <p>Get the best value for your used phones, laptops, and gadgets.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-exchange-alt"></i>
+                <h3>Swap Devices</h3>
+                <p>Upgrade your device by swapping with our high-quality options.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools"></i>
+                <h3>Repair Services</h3>
+                <p>Expert repairs for phones, laptops, and other accessories.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <h2>Your Location</h2>
+        <p id="user-location">Detecting your location...</p>
+        <button onclick="getLocation()" class="btn">Detect My Location</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Our Stores</h3>
+                <p><strong>Shop 1:</strong> Saltech Plaza, Railway Station, Ilorin, Kwara State</p>
+                <p><strong>Shop 2:</strong> Savannah Complex, Beside UBA, Challenge Road, Ilorin, Kwara State</p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/+2349070566797">+2349070566797</a></p>
+                <p><strong>Call Us:</strong> 08032831552</p>
+            </div>
+            <div class="social-links">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/profile.php?id=61573794990250" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/kamaldeenibrahimoluwadamilare?igsh=czQ1eGVnNHg0NHE%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://x.com/khaygadgets?s=11" target="_blank"><i class="fab fa-x-twitter"></i> X</a>
+                <a href="https://www.tiktok.com/@khaygadgets" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Khay Gadget & I.T Venture. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
