@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khay Gadget & I.T Venture - Buy | Swap | Repair | Accessories</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <meta name="description" content="Khay Gadget & I.T Venture: Buy, swap, repair laptops, phones & accessories. Shop now, connect on WhatsApp, and experience the best tech in Ilorin.">
+</head>
+<body>
+  <header>
+    <div class="nav-main">
+      <a href="#" class="brand">
+        <img src="logo.svg" alt="Khay Gadget & I.T Venture Logo" class="logo-img">
+        <span>Khay Gadget & I.T Venture</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#catalogue">Catalogue</a></li>
+          <li><a href="#whyus">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-social">
+        <a href="https://wa.me/2349070566797" target="_blank" aria-label="WhatsApp"><img src="whatsapp.svg" alt="WhatsApp"></a>
+        <a href="https://facebook.com/khaygadget" target="_blank" aria-label="Facebook"><img src="facebook.svg" alt="Facebook"></a>
+        <a href="https://instagram.com/kamaldeenibrahimoluwadamilare" target="_blank" aria-label="Instagram"><img src="instagram.svg" alt="Instagram"></a>
+        <a href="https://x.com/khaygadgets" target="_blank" aria-label="X"><img src="x.svg" alt="X"></a>
+        <a href="https://www.tiktok.com/@khaygadgets" target="_blank" aria-label="TikTok"><img src="tiktok.svg" alt="TikTok"></a>
+      </div>
+    </div>
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-content" id="home">
+        <h1>
+          <span class="gradient-text">Shop. Swap. Repair.</span>
+          <br>
+          Experience Tech The Elite Way
+        </h1>
+        <p>
+          Buy, swap, and repair laptops, phones, or accessories. <br>
+          Trusted in Ilorin. Unmatched deals. Professional service.
+        </p>
+        <div class="cta-btns">
+          <a href="#catalogue" class="btn primary">Browse Catalogue</a>
+          <a href="https://wa.me/2349070566797" class="btn whatsapp" target="_blank">Shop Now on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="catalogue" class="catalogue-section">
+      <h2>Our Featured Categories</h2>
+      <div class="product-cards">
+        <div class="product-card" onclick="window.location.href='laptops.html'">
+          <img src="laptop.png" alt="Laptops">
+          <h3>Laptops</h3>
+          <p>Explore the best deals on new & refurbished laptops.</p>
+          <a href="laptops.html" class="catalogue-btn">View Laptops</a>
+        </div>
+        <div class="product-card" onclick="window.location.href='phones.html'">
+          <img src="phone.png" alt="Phones">
+          <h3>Phones</h3>
+          <p>Top brands, amazing swaps, and trusted repairs.</p>
+          <a href="phones.html" class="catalogue-btn">View Phones</a>
+        </div>
+        <div class="product-card" onclick="window.location.href='accessories.html'">
+          <img src="accessories.png" alt="Accessories">
+          <h3>Accessories</h3>
+          <p>Chargers, headsets, bags and more for all devices.</p>
+          <a href="accessories.html" class="catalogue-btn">View Accessories</a>
+        </div>
+      </div>
+      <div class="shop-now-banner">
+        <a href="https://wa.me/2349070566797" class="btn whatsapp big" target="_blank">
+          <img src="whatsapp.svg" alt="WhatsApp"> Shop Now on WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <section id="whyus" class="whyus-section">
+      <h2>Why Choose Khay Gadget & I.T Venture?</h2>
+      <div class="features-list">
+        <div class="feature-card">
+          <span>🔒</span>
+          <h4>100% Authentic Devices</h4>
+          <p>We only sell and swap original, tested gadgets with warranty.</p>
+        </div>
+        <div class="feature-card">
+          <span>⚡</span>
+          <h4>Express Repairs</h4>
+          <p>On-the-spot phone & laptop repairs with expert technicians.</p>
+        </div>
+        <div class="feature-card">
+          <span>💬</span>
+          <h4>Instant WhatsApp Support</h4>
+          <p>Speak directly with our team for deals or troubleshooting.</p>
+        </div>
+        <div class="feature-card">
+          <span>🏪</span>
+          <h4>2 Prime Locations</h4>
+          <p>Saltech Plaza Railway Station & Savannah Complex, Challenge Road, Ilorin.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="location-section">
+      <h2>Our Stores in Ilorin</h2>
+      <div class="locations">
+        <div class="location-card">
+          <h3>Shop 1</h3>
+          <p>Saltech Plaza, Railway Station, Ilorin.</p>
+        </div>
+        <div class="location-card">
+          <h3>Shop 2</h3>
+          <p>Savannah Complex, Beside UBA, Challenge Road, Ilorin.</p>
+        </div>
+      </div>
+      <div class="geo-locator">
+        <button onclick="getLocation()" class="btn secondary">Detect My Location</button>
+        <span id="user-location">Your location will appear here.</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact & Socials</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/2349070566797" target="_blank">+234 907 056 6797</a></p>
+          <p><strong>Call:</strong> <a href="tel:+2348032821552">0803 283 1552</a></p>
+          <p><strong>Email:</strong> <a href="mailto:khaygadgetitventure@gmail.com">khaygadgetitventure@gmail.com</a></p>
+        </div>
+        <div class="contact-social">
+          <a href="https://facebook.com/khaygadget" target="_blank"><img src="facebook.svg" alt="Facebook"></a>
+          <a href="https://instagram.com/kamaldeenibrahimoluwadamilare" target="_blank"><img src="instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com/khaygadgets" target="_blank"><img src="x.svg" alt="X"></a>
+          <a href="https://www.tiktok.com/@khaygadgets" target="_blank"><img src="tiktok.svg" alt="TikTok"></a>
+        </div>
+      </div>
+      <div class="whatsapp-float">
+        <a href="https://wa.me/2349070566797" target="_blank" aria-label="Chat on WhatsApp">
+          <img src="whatsapp.svg" alt="WhatsApp"/>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Khay Gadget & I.T Venture. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
