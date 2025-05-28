@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptops | Khay Gadget & I.T Venture</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { background: linear-gradient(135deg, #005bea 0%, #00c6fb 100%); }
+    .hero-laptop {
+      background: linear-gradient(120deg, #005bea 60%, #00c6fb 100%);
+      color: #fff;
+      text-align: center;
+      padding: 4em 1em 2em 1em;
+      border-radius: 0 0 32px 32px;
+      box-shadow: 0 2px 24px #005bea30;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-laptop img {
+      width: 220px; max-width: 90vw; margin: 2em auto 0 auto; display: block; filter: drop-shadow(0 4px 40px #005bea33);
+    }
+    .laptop-section {
+      background: #fff;
+      border-radius: 24px;
+      max-width: 900px;
+      margin: -2em auto 2em auto;
+      box-shadow: 0 2px 18px #005bea18;
+      padding: 2.5em 2em;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    .laptop-list {
+      display: flex; flex-wrap: wrap; gap: 2em; justify-content: center; margin-top: 2em;
+    }
+    .laptop-card {
+      background: #f5f8fe;
+      border-radius: 18px;
+      box-shadow: 0 2px 12px #005bea10;
+      width: 260px;
+      padding: 1.5em 1em 1em 1em;
+      text-align: left;
+      transition: transform 0.18s, box-shadow 0.18s;
+    }
+    .laptop-card:hover { transform: scale(1.03); box-shadow: 0 6px 18px #005bea1a; }
+    .laptop-card img { width: 70px; height: 70px; object-fit: contain; display: block; margin-bottom: 1em;}
+    .laptop-card h3 { color: #005bea; margin-bottom: 0.3em; }
+    .laptop-card p { color: #233; font-size: 1em; min-height: 48px; }
+    .whatsapp-cta {
+      margin: 2em 0 0 0;
+      display: flex; justify-content: center;
+    }
+    .whatsapp-cta a {
+      background: #25D366;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.15em;
+      border-radius: 26px;
+      padding: 1em 2.5em;
+      text-decoration: none;
+      display: flex; align-items: center; gap: 0.7em;
+      transition: background 0.16s;
+      box-shadow: 0 2px 12px #25d36633;
+    }
+    .whatsapp-cta a:hover { background: #128C7E; }
+    .whatsapp-cta img { width: 30px; height: 30px; }
+    @media (max-width: 800px) {
+      .laptop-list { flex-direction: column; align-items: center; }
+      .laptop-section { padding: 1em 0.4em; }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero-laptop">
+    <h1 style="font-size:2.3em;font-weight:900;">Top Laptops <br>at Khay Gadget & I.T Venture</h1>
+    <p style="font-size:1.23em;max-width:600px;margin:0 auto 1.5em auto;">
+      Shop the best selection of premium, new & refurbished laptops.<br>
+      Unmatched warranty, best prices, and expert support for every customer.
+    </p>
+    <img src="laptop-hero.png" alt="Laptops at Khay Gadget">
+  </section>
+  <section class="laptop-section">
+    <h2 style="color:#005bea;font-weight:800;margin-bottom:1.5em;">Popular Picks</h2>
+    <div class="laptop-list">
+      <div class="laptop-card">
+        <img src="laptop.png" alt="HP EliteBook">
+        <h3>HP EliteBook 840</h3>
+        <p>Core i5/i7, 8GB+ RAM, SSD, slim, durable, perfect for business & study.</p>
+      </div>
+      <div class="laptop-card">
+        <img src="laptop.png" alt="Dell Latitude">
+        <h3>Dell Latitude 7490</h3>
+        <p>Premium build, long battery, Full HD, great for professionals and power users.</p>
+      </div>
+      <div class="laptop-card">
+        <img src="laptop.png" alt="Apple MacBook">
+        <h3>Apple MacBook Air</h3>
+        <p>Lightweight, Retina display, macOS, best for creators & students.</p>
+      </div>
+      <div class="laptop-card">
+        <img src="laptop.png" alt="Lenovo ThinkPad">
+        <h3>Lenovo ThinkPad X1</h3>
+        <p>Legendary keyboard, robust, fast, ideal for productivity and reliability.</p>
+      </div>
+    </div>
+    <div class="whatsapp-cta">
+      <a href="https://wa.me/2349070566797?text=Hi!%20I'm%20interested%20in%20buying%20a%20laptop%20from%20Khay%20Gadget.%20Can%20I%20see%20available%20models?" target="_blank">
+        <img src="whatsapp.svg" alt="WhatsApp"> Shop Laptops Now
+      </a>
+    </div>
+  </section>
+</body>
+</html>

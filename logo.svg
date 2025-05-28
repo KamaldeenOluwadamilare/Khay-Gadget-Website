@@ -1,0 +1,8 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="90" height="90" rx="20" fill="#005bea"/>
+  <g>
+    <circle cx="45" cy="45" r="32" fill="#fff" stroke="#00c6fb" stroke-width="4"/>
+    <text x="45" y="54" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#005bea" letter-spacing="3">KG</text>
+    <text x="45" y="73" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="bold" fill="#00c6fb">I.T Venture</text>
+  </g>
+</svg>
