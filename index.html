@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khay Gadget & I.T Venture - Home</title>
+  <meta name="description" content="Shop, swap, repair laptops, phones & accessories. HP, Dell, Apple, MacBook, Samsung, Lenovo, Acer, Toshiba, and more.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="nav-main">
+      <a href="index.html" class="brand">
+        <img src="logo.png" alt="Khay Gadget & I.T Venture Logo" class="logo-img">
+        <span>Khay Gadget & I.T Venture</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="laptops.html">Laptops</a></li>
+          <li><a href="phones.html">Phones</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-social">
+        <a href="https://wa.me/message/XYJZJRXVXP5UD1" target="_blank"><img src="whatsapp.svg" alt="WhatsApp"></a>
+        <a href="https://www.facebook.com/profile.php?id=61573794990250" target="_blank"><img src="facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/khaygadget" target="_blank"><img src="instagram.svg" alt="Instagram"></a>
+        <a href="https://x.com/khaygadgets?s=11" target="_blank"><img src="x.svg" alt="X"></a>
+        <a href="https://www.tiktok.com/@khaygadgets" target="_blank"><img src="tiktok.svg" alt="TikTok"></a>
+        <a href="http://www.youtube.com/@KhayGadgets" target="_blank"><img src="youtube.svg" alt="YouTube"></a>
+      </div>
+    </div>
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-content" id="home">
+        <h1>
+          <span class="gradient-text">Shop. Swap. Repair.</span><br>
+          Experience Tech The Elite Way
+        </h1>
+        <p>
+          Buy, swap, and repair laptops, phones, or accessories.<br>
+          Trusted in Ilorin. Unmatched deals. Professional service.
+        </p>
+        <div class="cta-btns">
+          <a href="laptops.html" class="btn primary animated">Laptops</a>
+          <a href="phones.html" class="btn primary animated">Phones</a>
+          <a href="accessories.html" class="btn primary animated">Accessories</a>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1" class="btn whatsapp animated" target="_blank">Shop Now on WhatsApp</a>
+        </div>
+        <button class="btn secondary" id="open-newsletter">Subscribe to Newsletter</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="whyus-section glass animated">
+      <h2>Why Choose Khay Gadget?</h2>
+      <div class="features-list">
+        <div class="feature-card"><span>🔒</span><h4>Authentic Devices</h4><p>All products are original and covered by warranty.</p></div>
+        <div class="feature-card"><span>⚡</span><h4>Express Repairs</h4><p>Get your gadgets fixed fast by certified experts.</p></div>
+        <div class="feature-card"><span>💬</span><h4>WhatsApp Support</h4><p>Deals and help instantly via WhatsApp.</p></div>
+        <div class="feature-card"><span>🏪</span><h4>Prime Locations</h4><p>Saltech Plaza & Savannah Complex, Ilorin.</p></div>
+      </div>
+    </section>
+    <section class="location-section glass animated">
+      <h2>Our Stores</h2>
+      <div class="locations">
+        <div class="location-card">
+          <h3>Saltech Plaza</h3>
+          <p>Railway Station, Ilorin.</p>
+        </div>
+        <div class="location-card">
+          <h3>Savannah Complex</h3>
+          <p>Beside UBA, Challenge Road, Ilorin.</p>
+        </div>
+      </div>
+      <div class="geo-locator">
+        <button onclick="getLocation()" class="btn secondary">Detect My Location</button>
+        <span id="user-location">Your location will appear here.</span>
+      </div>
+    </section>
+    <section id="contact" class="contact-section glass animated">
+      <h2>Contact & Socials</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <form action="https://formspree.io/f/xgvywowz" method="POST" class="contact-form" id="contact-form">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <textarea name="message" placeholder="Your Message" rows="3" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+          <p><b>WhatsApp:</b> <a href="https://wa.me/message/XYJZJRXVXP5UD1" target="_blank">+234 907 056 6797</a></p>
+          <p><b>Call:</b> <a href="tel:+2348032831552">+234 803 283 1552</a></p>
+          <p><b>Email:</b> <a href="mailto:khaygadgetitventure@gmail.com">khaygadgetitventure@gmail.com</a></p>
+        </div>
+        <div class="contact-social">
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1" target="_blank"><img src="whatsapp.svg" alt="WhatsApp"></a>
+          <a href="https://www.facebook.com/profile.php?id=61573794990250" target="_blank"><img src="facebook.svg" alt="Facebook"></a>
+          <a href="https://www.instagram.com/khaygadget" target="_blank"><img src="instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com/khaygadgets?s=11" target="_blank"><img src="x.svg" alt="X"></a>
+          <a href="https://www.tiktok.com/@khaygadgets" target="_blank"><img src="tiktok.svg" alt="TikTok"></a>
+          <a href="http://www.youtube.com/@KhayGadgets" target="_blank"><img src="youtube.svg" alt="YouTube"></a>
+        </div>
+      </div>
+      <div class="whatsapp-float">
+        <a href="https://wa.me/message/XYJZJRXVXP5UD1" target="_blank" aria-label="Chat on WhatsApp">
+          <img src="whatsapp.svg" alt="WhatsApp"/>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Khay Gadget & I.T Venture. All Rights Reserved.</p>
+  </footer>
+  <!-- Newsletter Modal -->
+  <div class="newsletter-modal" id="newsletter-modal">
+    <div class="newsletter-content">
+      <button class="close-modal" id="close-newsletter">&times;</button>
+      <h2>Subscribe to Our Newsletter</h2>
+      <form action="https://formspree.io/f/xkgbwowq" method="POST" class="newsletter-form" id="newsletter-form">
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit" class="btn primary">Subscribe</button>
+        <div class="form-status" id="newsletter-status"></div>
+      </form>
+      <p style="font-size:0.93em;color:#888;margin-top:0.8em;">Stay ahead with our latest deals, tech news, and more!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
