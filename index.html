@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khay Gadget & I.T Venture</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0f2b">
+  <meta name="description" content="Futuristic hub for gadgets and I.T solutions in Ilorin.">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div id="webgl-bg"></div>
+  <div id="preloader"><div class="spinner"></div></div>
+  <header>
+    <div class="container">
+      <img src="logo.png" alt="Khay Gadget Logo" class="logo-img">
+      <nav>
+        <div class="hamburger" aria-label="Toggle Menu"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="laptop.html">Laptops</a></li>
+          <li><a href="phone.html">Phones</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-sun"></i></button>
+        <button class="voice-search" aria-label="Voice Search"><i class="fas fa-microphone"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content glass">
+      <h1>Welcome to Khay Gadget & I.T Venture</h1>
+      <p>Your futuristic hub for gadgets and I.T solutions in Ilorin!</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/message/XYJZJRXVXP5UD1" class="btn primary" aria-label="Shop Now via WhatsApp">Shop Now</a>
+        <a href="#products" class="btn secondary" aria-label="Explore Products">Explore Products</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="service-card glass animated">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>Buy</h3>
+          <p>Latest gadgets at competitive prices.</p>
+        </div>
+        <div class="service-card glass animated">
+          <i class="fas fa-handshake"></i>
+          <h3>Sell</h3>
+          <p>Sell your used gadgets easily.</p>
+        </div>
+        <div class="service-card glass animated">
+          <i class="fas fa-exchange-alt"></i>
+          <h3>Swap</h3>
+          <p>Trade in for newer models.</p>
+        </div>
+        <div class="service-card glass animated">
+          <i class="fas fa-tools"></i>
+          <h3>Repair</h3>
+          <p>Expert repair services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="product-filters">
+        <button class="filter-btn active" data-filter="all" aria-label="Filter All Products">All</button>
+        <button class="filter-btn" data-filter="laptops" aria-label="Filter Laptops">Laptops</button>
+        <a href="laptop.html" class="filter-btn" aria-label="View All Laptops">View All Laptops</a>
+        <button class="filter-btn" data-filter="phones" aria-label="Filter Phones">Phones</button>
+        <a href="phone.html" class="filter-btn" aria-label="View All Phones">View All Phones</a>
+        <button class="filter-btn" data-filter="accessories" aria-label="Filter Accessories">Accessories</button>
+        <a href="accessories.html" class="filter-btn" aria-label="View All Accessories">View All Accessories</a>
+      </div>
+      <div class="product-grid">
+        <div class="product-card glass animated" data-category="laptops">
+          <img src="images/hp-elitebook-ultra.png" alt="HP EliteBook Ultra" loading="lazy">
+          <h3>HP EliteBook Ultra</h3>
+          <p>Premium business laptop.</p>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1?text=HP%20EliteBook%20Ultra" class="btn whatsapp" aria-label="Shop HP EliteBook Ultra via WhatsApp">Shop Now</a>
+        </div>
+        <div class="product-card glass animated" data-category="laptops">
+          <img src="images/dell-xps-13.png" alt="Dell XPS 13" loading="lazy">
+          <h3>Dell XPS 13</h3>
+          <p>Ultralight powerhouse.</p>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1?text=Dell%20XPS%2013" class="btn whatsapp" aria-label="Shop Dell XPS 13 via WhatsApp">Shop Now</a>
+        </div>
+        <div class="product-card glass animated" data-category="phones">
+          <img src="images/iphone-16.png" alt="iPhone 16" loading="lazy">
+          <h3>iPhone 16</h3>
+          <p>Latest Apple innovation.</p>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1?text=iPhone%2016" class="btn whatsapp" aria-label="Shop iPhone 16 via WhatsApp">Shop Now</a>
+        </div>
+        <div class="product-card glass animated" data-category="phones">
+          <img src="images/iphone-15.png" alt="iPhone 15" loading="lazy">
+          <h3>iPhone 15</h3>
+          <p>Powerful and sleek.</p>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1?text=iPhone%2015" class="btn whatsapp" aria-label="Shop iPhone 15 via WhatsApp">Shop Now</a>
+        </div>
+        <div class="product-card glass animated" data-category="accessories">
+          <img src="images/magsafe-charger.png" alt="MagSafe Charger" loading="lazy">
+          <h3>MagSafe Charger</h3>
+          <p>Fast wireless charging.</p>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1?text=MagSafe%20Charger" class="btn whatsapp" aria-label="Shop MagSafe Charger via WhatsApp">Shop Now</a>
+        </div>
+        <div class="product-card glass animated" data-category="accessories">
+          <img src="images/airpods-pro.png" alt="AirPods Pro" loading="lazy">
+          <h3>AirPods Pro</h3>
+          <p>Noise-canceling earbuds.</p>
+          <a href="https://wa.me/message/XYJZJRXVXP5UD1?text=AirPods%20Pro" class="btn whatsapp" aria-label="Shop AirPods Pro via WhatsApp">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card glass animated">
+          <p>"Excellent service and quality products!"</p>
+          <h4>- Tunde A.</h4>
+        </div>
+        <div class="testimonial-card glass animated">
+          <p>"Fast repairs and great support."</p>
+          <h4>- Aisha M.</h4>
+        </div>
+        <div class="testimonial-card glass animated">
+          <p>"Seamless phone swap experience."</p>
+          <h4>- Chinedu O.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info glass">
+          <h3>Our Stores</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Saltech Plaza, Ilorin</p>
+          <p><i class="fas fa-map-marker-alt"></i> Savannah Complex, Ilorin</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+2348032831552">+234 803 283 1552</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:khaygadgetitventure@gmail.com">khaygadgetitventure@gmail.com</a></p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61573794990250" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/khaygadget?igsh=czQ1eGVnNHg0NHE%3D&utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/khaygadgets?s=11" aria-label="X"><i class="fab fa-x"></i></a>
+            <a href="https://www.tiktok.com/@khaygadgets" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="http://www.youtube.com/@KhayGadgets" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+          <button id="location-btn" class="btn" aria-label="Detect My Location">Detect My Location</button>
+          <p id="location-output"></p>
+        </div>
+        <div class="contact-form glass">
+          <h3>Send Us a Message</h3>
+          <form action="https://formspree.io/f/xgvywowz" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required aria-label="Name">
+            <input type="email" name="email" placeholder="Your Email" required aria-label="Email">
+            <textarea name="message" placeholder="Your Message" required aria-label="Message"></textarea>
+            <button type="submit" class="btn primary" aria-label="Send Message">Send Message</button>
+          </form>
+        </div>
+        <div class="newsletter-form glass">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form action="https://formspree.io/f/xkgbwowq" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required aria-label="Email for Newsletter">
+            <button type="submit" class="btn primary" aria-label="Subscribe to Newsletter">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="live-chat">
+    <button class="btn whatsapp chat-toggle" aria-label="Toggle Chat"><i class="fab fa-whatsapp"></i> Chat with Us</button>
+    <div class="chat-box glass" id="chat-box">
+      <div class="chat-header">
+        <h4>Khay Gadget Support</h4>
+        <button class="chat-close" aria-label="Close Chat"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <p>Welcome! How can I assist you today?</p>
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="chat-input" placeholder="Type your message..." aria-label="Chat Input">
+        <button id="chat-send" class="btn" aria-label="Send Message"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Khay Gadget & I.T Venture. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
